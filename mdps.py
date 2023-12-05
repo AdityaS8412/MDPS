@@ -94,25 +94,25 @@ if (selected == 'Heart Disease Prediction'):
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        age = st.text_input('Age')
+        age = st.text_input('Age (Range:0-100 )')
         
     with col2:
-        sex = st.text_input('Sex')
+        sex = st.text_input('Sex (Range:M->0 , F->1)')
         
     with col3:
-        cp = st.text_input('Chest Pain types')
+        cp = st.text_input('Chest Pain types(Range: 1 - 3 )')
         
     with col1:
-        trestbps = st.text_input('Resting Blood Pressure')
+        trestbps = st.text_input('Resting Blood Pressure (Range: 100 - 200 )')
         
     with col2:
-        chol = st.text_input('Serum Cholestoral in mg/dl')
+        chol = st.text_input('Serum Cholestoral in mg/dl (Range: 50  - 200)')
         
     with col3:
         fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl')
         
     with col1:
-        restecg = st.text_input('Resting Electrocardiographic results')
+        restecg = st.text_input('Resting Electrocardiographic results(R:0-1 )')
         
     with col2:
         thalach = st.text_input('Maximum Heart Rate achieved')
