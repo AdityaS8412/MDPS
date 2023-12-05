@@ -109,7 +109,7 @@ if (selected == 'Heart Disease Prediction'):
         chol = st.text_input('Serum Cholestoral in mg/dl (Range: 50  - 200)')
         
     with col3:
-        fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl')
+        fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl', '(Range: )', key="placeholder")
         
     with col1:
         restecg = st.text_input('Resting Electrocardiographic results(R:0-1 )')
