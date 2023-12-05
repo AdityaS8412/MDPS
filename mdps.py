@@ -109,7 +109,7 @@ if (selected == 'Heart Disease Prediction'):
         chol = st.text_input('Serum Cholestoral in mg/dl (Range: 50  - 200)')
         
     with col3:
-        fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl', '(Range: )', key="placeholder")
+        fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl')
         
     with col1:
         restecg = st.text_input('Resting Electrocardiographic results(R:0-1 )')
@@ -118,16 +118,16 @@ if (selected == 'Heart Disease Prediction'):
         thalach = st.text_input('Maximum Heart Rate achieved')
         
     with col3:
-        exang = st.text_input('Exercise Induced Angina')
+        exang = st.text_input('Exercise Induced Angina (Range:0-1 )')
         
     with col1:
-        oldpeak = st.text_input('ST depression induced by exercise')
+        oldpeak = st.text_input('ST depression induced by exercise(Range:0-3.0 )')
         
     with col2:
-        slope = st.text_input('Slope of the peak exercise ST segment')
+        slope = st.text_input('Slope of the peak exercise ST segment (Range:0-2 )')
         
     with col3:
-        ca = st.text_input('Major vessels colored by flourosopy')
+        ca = st.text_input('Major vessels colored by flourosopy(Range: 0-1)')
         
     with col1:
         thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
