@@ -46,7 +46,7 @@ if (selected == 'Diabetes Prediction'):
         Pregnancies = st.text_input('Number of Pregnancies (Range: 1-10)')
         
     with col2:
-        Glucose = st.text_input('Glucose Level (Ramge: 80 - 200)')
+        Glucose = st.text_input('Glucose Level (Range: 80 - 200)')
     
     with col3:
         BloodPressure = st.text_input('Blood Pressure value(Range: 0 -122 )')
